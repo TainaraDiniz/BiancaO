@@ -478,7 +478,13 @@ p.texto-personalizacao{
   padding-bottom: 20px;
   font-size: 20px;
 }
-
+li.bordas{
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #e65c9c;
+  padding: 10px;
+  margin: 5px;
+}
 
 .linha{
   border-top: 2px solid #e65c9c;
@@ -713,16 +719,6 @@ h2.titulo-personalizacao{
   margin-bottom: 0;
 }
 
-.brow-modelo{
-  width: 40%;
-  border-radius: 50%;
-  /* border-style: groove;
-  border-color: #e65c9c; */
-}
-.cilios-modelo{
-  border-radius: 50%;
-  width: 40%;
-}
 
 @media (max-width: 896px){
   #nome1 {
@@ -760,10 +756,6 @@ h2.titulo-personalizacao{
     padding-left: 15px;
 }
 
-.cuidado-sobrancelhas{
-  font-size: 20px;
-}
-}
 
 @media (max-width: 800px){
   .bianca-descricao{
