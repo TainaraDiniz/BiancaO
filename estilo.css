@@ -315,7 +315,6 @@ section.frase-de-impacto-2 {
 .galeria {
   position: relative;
   width: 500px;
-  height: 320px;
   display: flex;
   margin: inherit;
   justify-content: center;
@@ -408,9 +407,7 @@ h2.titulo-servicos{
   text-align: center;
   color: #e65c9c;
 }
-li::marker{
-  color: #e65c9c;
-}
+
 .galeria img {
   width: 100%;
   height: auto;
@@ -484,6 +481,9 @@ li.bordas{
   border-color: #e65c9c;
   padding: 10px;
   margin: 5px;
+}
+.ul{
+  list-style: none;;
 }
 
 .linha{
